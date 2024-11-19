@@ -15,19 +15,19 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.white,
         title: SvgPicture.asset('assets/images/logo.svg'),
         actions: [
-          InkWell(
-            onTap: () {
-              drawer(context);
-            },
-            child: const Icon(
-              Icons.menu_outlined,
-              color: Colors.black87,
-              size: 30,
-            ),
-          )
+          // InkWell(
+          //   onTap: () {
+          //     drawer(context);
+          //   },
+          //   child: const Icon(
+          //     Icons.menu_outlined,
+          //     color: Colors.black87,
+          //     size: 30,
+          //   ),
+          // )
         ],
       ),
-      drawer: drawer(context),
+      endDrawer: drawer(context),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 10),
         child: SingleChildScrollView(
