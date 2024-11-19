@@ -17,7 +17,6 @@ class HomePage extends StatelessWidget {
         actions: [
           // InkWell(
           //   onTap: () {
-          //     drawer(context);
           //   },
           //   child: const Icon(
           //     Icons.menu_outlined,
@@ -203,7 +202,7 @@ class HomePage extends StatelessWidget {
               title: Text(
                 "Hydrogen VS Electric Cars",
                 style: TextStyle(
-                    fontSize: 25,
+                    fontSize: 23,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                     fontFamily: 'InterVariable'),
@@ -225,7 +224,7 @@ class HomePage extends StatelessWidget {
               title: Text(
                 "The Downsides of AI Artistry",
                 style: TextStyle(
-                    fontSize: 25,
+                    fontSize: 23,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                     fontFamily: 'InterVariable'),
@@ -247,7 +246,7 @@ class HomePage extends StatelessWidget {
               title: Text(
                 "Is VC Funding Drying Up?",
                 style: TextStyle(
-                    fontSize: 25,
+                    fontSize: 23,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                     fontFamily: 'InterVariable'),
